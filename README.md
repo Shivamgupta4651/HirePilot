@@ -1,16 +1,41 @@
-# React + Vite
+# HirePilot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HirePilot is an AI-powered job search copilot that helps users discover jobs, analyze job matches, prepare applications, and track applications.
 
-Currently, two official plugins are available:
+## Frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This repository contains the HirePilot frontend built with React and Vite.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- React Router
+- Tailwind CSS
+- JavaScript
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- User registration and login
+- Dashboard
+- Job discovery and search
+- Resume management
+- Job details
+- Job match analysis
+- Application preparation
+- Application tracking
+- Profile and settings
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── services/
+├── context/
+├── hooks/
+├── utils/
+├── App.jsx
+├── main.jsx
+└── index.css
